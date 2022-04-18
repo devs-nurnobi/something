@@ -1,0 +1,370 @@
+*{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+img{
+    max-width: 100%;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    max-width: 850px;
+    margin: auto;
+    display: block;
+}
+
+
+/* header section css style */
+.header{
+    background-color: rgb(214, 234, 252);
+    height: 45px;
+    padding-top: 15px;
+}
+.header-logo{
+    float: left;
+    display: block;
+    width: 30%;
+}
+.header-logo img{
+    max-width: 35px;
+    float: left;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.header-logo h3{
+    font-size: 25px;
+    color: rgb(24, 6, 187);
+    cursor: pointer;
+}
+
+.header-menu{
+    float: right;
+    display: block;
+    width: 70%;
+}
+.header-menu ul{
+    margin-top: 5px;
+    margin-left: 119px;
+}
+.header-menu ul li{
+    display:inline-block;
+    margin-left: -4px;
+}
+.header-menu ul li a{
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 19px;
+    text-decoration: none;
+    padding: 0 10px;
+    display: block;
+    transition: .4s;
+}
+.header-menu ul li a:hover{
+    color: rgb(24, 6, 187);
+}
+
+/* banner section */
+.banner{
+    background: url(https://i.ibb.co/HNhh08x/silhouette-man-flag-on-mountain-260nw-1280986663.jpg) no-repeat center;
+    background-size: cover;
+    padding: 150px 0;
+    background-attachment: fixed;
+}
+/* .banner-text{} */
+.banner-text h1{
+    max-width: 500px;
+    margin-left: 30px;
+    font-size: 65px;
+    text-transform: capitalize;
+}
+.banner-text h3{
+    max-width: 280px;
+    margin-left:30px;
+    font-size: 28px;
+    margin-top: 20px;
+    text-transform:capitalize;
+}
+.banner-text button {
+    margin-left: 30px;
+    background-color: rgb(24, 6, 187);
+    font-size: 20px;
+    color: #fff;
+    padding: 9px 19px;
+    border-radius: 28px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .4s;
+}
+.banner-text button:hover{
+    background-color:rgb(58, 39, 223) ;
+}
+
+
+/* about section css style */
+/* .about{} */
+.about-heading h3{
+    color:rgb(58, 39, 223) ;
+    font-size: 70px;
+    padding: 20px 0;
+    
+}
+.about-img{ 
+    float: left;
+    display: block;
+    width: 40%;
+    box-sizing: border-box;
+    transition: 1s;
+   
+}
+.about-img img{
+    transition: 3s;
+}
+.about-text{
+    float: right;
+    display: block;
+    width: 58%;
+    padding: 0 19px;
+    box-sizing: border-box;
+}
+.about-text h3{
+    font-size: 18px;
+    margin-bottom: 32px;
+    font-weight: 200;
+}
+.about-text h2{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+
+/* service section */
+.service{
+    padding: 40px 0;
+}
+.service h3{
+    font-size: 70px;
+    padding: 20px 0;
+    color:rgb(58, 39, 223) ;
+}
+.service-item{
+    margin-top: 60px;
+}
+.service-left{
+    float: left;
+    width: 49%;
+    display: block;
+    border-right: 1px solid rgba(0, 0, 0, 0.452);
+}
+.left1{
+   max-width: 300px; 
+   text-align: center;
+   margin-bottom: 60px;
+}
+.left1 h2{
+    font-size: 38px;
+    text-align: center;
+    color:rgb(58, 39, 223) ;
+    padding: 20px 0;
+}
+.left1 p{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.774);
+    line-height: 30px;
+}
+
+.service-right{
+    float: right;
+    display: block;
+    width: 49%;
+}
+
+.right-1{
+    max-width: 300px; 
+    text-align: center;
+    margin-bottom: 60px;
+    padding-left: 60px;
+}
+.right-1 h2{
+    font-size: 38px;
+    text-align: center;
+    color:rgb(58, 39, 223) ;
+    padding: 20px 0;
+}
+.right-1 p{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.774);
+    line-height: 30px;
+}
+.right-1 h1{
+    font-size: 23px;
+    font-weight: 200;
+    margin-top: 15px;
+}
+.service button{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(228, 113, 60);
+    border-radius: 10px 3px;
+    padding: 7px 20px;
+    margin: 0 auto;
+    color: #fff;
+    display: block;
+    cursor: pointer;
+    margin-top: 80px;
+    transition: .3s;
+}
+.service button:hover{
+    background-color: rgb(233, 133, 87);
+}
+
+
+/* testimonial */
+.testimonial{
+    background-color: rgb(39, 21, 207) ;
+    padding: 60px 0;
+}
+.test-left{
+    float: left;
+    display: block;
+    width: 50%;
+    box-sizing: border-box;
+}
+.test-left h1{
+    font-size: 56px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.test-right{
+    float: right;
+    display: block;
+    width: 49%;
+
+}
+.test-right h3{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: 400;
+    margin-top: 25px;
+}
+.test-right h5{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px ;
+}
+
+
+/* contact section */
+.contact{
+    padding: 40px 0;
+}
+/* .contact-text{} */
+.contact-text h1{
+    color:rgb(39, 21, 207) ;
+    font-size: 69px;
+    margin-bottom: 10px;
+}
+.contact-text p{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* footer bottom section */
+.footer-bottom{
+    padding: 60px 0;
+}
+.ft-btm-left{
+    float: left;
+    width: 70%;
+    display: block;
+    box-sizing: border-box;
+}
+.ft-btm-left input {
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.664);
+    margin-bottom: 50px;
+    margin-right: 40px;
+    padding: 10px 0;
+    outline: none;
+}
+
+.ft-btm-left textarea {
+    display: block;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.623);
+    width: 532px;
+
+}
+.ft-btm-right{
+    float: right;
+    width: 30%;
+    display: block;
+    box-sizing: border-box;
+}
+
+/* notice section */
+
+/* .notice{} */
+.notice h2 {
+    font-size: 29px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.699);
+    padding: 10px 0;
+}
+.notice input[type=checkbox] {
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;   
+    margin-top: 8px;
+}
+.notice h3 {
+    position: relative;
+    top: -27px;
+    left: 38px;
+    font-size: 25px;
+    color: rgba(1,1,1, .7);
+}
+
+.notice button {
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(192, 20, 92);
+    display: block;
+    padding: 8px 36px;
+    border-radius: 19px;
+    margin: 8px auto;
+    cursor: pointer;
+    transition: .4s;
+}
+.notice button:hover{
+    background-color:rgb(212, 41, 112) ;
+}
+
+/* footer section */
+.footer h3 {
+    color: #000000c4;
+    padding: 30px 0;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
